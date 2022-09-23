@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GoogleSheet\GoogleSheet.csproj" />
+    <ProjectReference Include="..\TgBot\TgBot.csproj" />
+  </ItemGroup>
+
+</Project>
